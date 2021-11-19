@@ -14,7 +14,7 @@ public class Parametros{
 	if (valor == 25.09){
 	    // Hacemos la resta de la variable menos la variable.
 	    valor -= valor;
-	    // Ocupamos otra condición para ver que siempre imprimirá un solo número, puesto que su valor cuando salga de las condiciones será 25.09 
+	    // Ocupamos otra condición para ver que siempre imprimirá un solo número, cuando la variable se imprime dentro de las condicionales su valor será 0.0, cuando salga de las condiciones el valor de la variable será 25.09 
 	    if (valor > -50.19){
 		//Imprimimos la variable valor, pero no la de valor que definimos en un principio, sino una nueva que es el resultado de nuestra función valor-=valor. En este caso, nos imprimirá solo el valor = 0.0, no va a imprimir el -25.09 o el -50.18, porque cuando sale de la última condición, la variable valor vuelve a ser 25.09
 		System.out.println ("\n" + "\n" + "  °°°°°°°°°° Parámetros por Valor °°°°°°°°°°" + "\n" +"     | Nuevo valor de la variable valor: " + valor + "|" + "\n" + "------------------------------------------------");
